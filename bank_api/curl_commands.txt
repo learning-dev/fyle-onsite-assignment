@@ -1,3 +1,28 @@
 http://127.0.0.1:8000/api/branches/?q=Bangalore&limit=4&offset=0
 
 http://127.0.0.1:8000/api/branches/autocomplete?q=RTGS&limit=3&offset=0
+
+
+
+curl -X GET \
+  'http://127.0.0.1:8000/api/branches/autocomplete?q=RTGS&limit=3&offset=0' \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: 127.0.0.1:8000' \
+  -H 'Postman-Token: 92aec0ba-91c6-4a34-a304-1242506fa815,95282be8-933d-404c-bc57-8ef3b902b16a' \
+  -H 'User-Agent: PostmanRuntime/7.18.0' \
+  -H 'cache-control: no-cache'
+
+curl -X GET \
+  'http://127.0.0.1:8000/api/branches/?q=Bangalore&limit=4&offset=0' \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: 127.0.0.1:8000' \
+  -H 'Postman-Token: 92aec0ba-91c6-4a34-a304-1242506fa815,95282be8-933d-404c-bc57-8ef3b902b16a' \
+  -H 'User-Agent: PostmanRuntime/7.18.0' \
+  -H 'cache-control: no-cache'
+
